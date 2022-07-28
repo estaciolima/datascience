@@ -52,4 +52,4 @@ def gerarPlot(colunaParaComparar, df):
     plt.gca().yaxis.set_major_formatter(mtick.PercentFormatter(xmax=1.0))
     plt.show()
 
-gerarPlot("RoomService", df) 
+gerarPlot("CryoSleep", df) 
